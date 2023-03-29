@@ -1,0 +1,39 @@
+.my-slider {
+  border: 1px solid black;
+  width: 100vw;
+}
+
+.my-slider div {
+  background-color: aqua;
+}
+
+.slick-dots {
+  position: static;
+}
+
+.progress-container {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 0 auto;
+  margin-top: 12px;
+}
+
+.progressbar {
+  width: 50%;
+  height: 12px;
+  background-color: rgb(177, 177, 177);
+  position: relative;
+  overflow: hidden;
+  margin: 0 8px;
+}
+
+.progressbar-thumb {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  transition: all 2000ms linear;
+}
